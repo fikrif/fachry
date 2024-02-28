@@ -665,57 +665,15 @@ export const state = () => ({
       ],
     },
   ],
-  clientsHeading: "Some of the brands I worked with",
-  clients: [
-    {
-      id: uuidv4(),
-      title: "Amazon",
-      img: "../brands/amazon_gray.png",
-    },
-    {
-      id: uuidv4(),
-      title: "Sony",
-      img: "../brands/sony_gray.png",
-    },
-    {
-      id: uuidv4(),
-      title: "Adidas",
-      img: "../brands/adidas_gray.png",
-    },
-    {
-      id: uuidv4(),
-      title: "FILA",
-      img: "../brands/fila_gray.png",
-    },
-    {
-      id: uuidv4(),
-      title: "NB",
-      img: "../brands/nb_gray.png",
-    },
-    {
-      id: uuidv4(),
-      title: "SAMSUNG",
-      img: "../brands/samsung_gray.png",
-    },
-    {
-      id: uuidv4(),
-      title: "CANON",
-      img: "../brands/canon_gray.png",
-    },
-    {
-      id: uuidv4(),
-      title: "PUMA",
-      img: "../brands/puma_gray.png",
-    },
-  ],
+  
   aboutMe: [
     {
       id: uuidv4(),
-      bio: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+      bio: "I am a final-year student in Informatics with a passion for web development. I specialize in front-end development and UI/UX design for both web and mobile applications. I am confident that with the knowledge and skillset I have gained through my undergraduate study, I will be able to contribute, learn, and hopefully improve myself in any future internship programs I will join when given the opportunity.",
     },
     {
       id: uuidv4(),
-      bio: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+      bio: "If you are looking for a skilled and dedicated front-end developer or UI/UX designer, I would be a great addition to your team. Please feel free to contact me to learn more about my skills and experience. Thank you for your time and consideration!",
     },
   ],
   copyrightDate: new Date().getFullYear(),
@@ -724,26 +682,26 @@ export const state = () => ({
       id: uuidv4(),
       name: "GitHub",
       icon: "github",
-      url: "https://github.com/realstoman",
+      url: "https://github.com/fachry99",
     },
-    {
-      id: uuidv4(),
-      name: "Twitter",
-      icon: "twitter",
-      url: "https://twitter.com/realstoman",
-    },
+    // {
+    //   id: uuidv4(),
+    //   name: "Twitter",
+    //   icon: "twitter",
+    //   url: "https://twitter.com/realstoman",
+    // },
     {
       id: uuidv4(),
       name: "Linkedin",
       icon: "linkedin",
-      url: "https://linkedin.com/in/realstoman",
+      url: "https://www.linkedin.com/in/fachry-/",
     },
-    {
-      id: uuidv4(),
-      name: "Youtube",
-      icon: "youtube",
-      url: "https://youtube.com/c/realstoman",
-    },
+    // {
+    //   id: uuidv4(),
+    //   name: "Youtube",
+    //   icon: "youtube",
+    //   url: "https://youtube.com/c/realstoman",
+    // },
   ],
   categories: [
     {
@@ -753,18 +711,8 @@ export const state = () => ({
     },
     {
       id: uuidv4(),
-      value: "mobile",
-      name: "Mobile Applicaiton",
-    },
-    {
-      id: uuidv4(),
       value: "ui-ux",
       name: "UI/UX Design",
-    },
-    {
-      id: uuidv4(),
-      value: "branding",
-      name: "Branding & Animations",
     },
   ],
 });

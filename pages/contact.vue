@@ -8,17 +8,17 @@ export default {
       contacts: [
         {
           id: 1,
-          name: "Your Address, Your City, Your Country",
+          name: "DKI Jakarta, Indonesia",
           icon: "map-pin",
         },
         {
           id: 2,
-          name: "email@domain.com",
+          name: "151fachry@gmail.com",
           icon: "mail",
         },
         {
           id: 3,
-          name: "555 8888 888",
+          name: "087883048810",
           icon: "phone",
         },
       ],
