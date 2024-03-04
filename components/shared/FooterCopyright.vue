@@ -25,7 +25,7 @@ export default {
     >
       &copy; {{ copyrightDate }}.
       <a
-        href="https://github.com/realstoman/nuxtjs-tailwindcss-portfolio"
+        href="https://github.com/fachry99/portofolio-nuxt"
         target="__blank"
         class="
           font-general-medium
@@ -37,7 +37,7 @@ export default {
       >
       . Developed by
       <a
-        href="https://stoman.me"
+        href="https://www.linkedin.com/in/fachry-"
         target="__blank"
         class="
           font-general-medium

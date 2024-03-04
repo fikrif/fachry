@@ -6,40 +6,44 @@ export const state = () => ({
   projects: [
     {
       id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdb",
-      title: "Google Health Platform",
+      title: "E-Commerce Catalog",
       category: "Web Application",
-      img: "images/web-project-2.jpg",
-      publishDate: "Nov 04, 2021",
+      img: "images/cover_ecommerce.png",
+      publishDate: "Jan 20, 2024",
       tag: "UI / Frontend",
       clientTitle: "About Client",
       objectivesTitle: "Objective",
-      objectivesDetails:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
+      objectivesDetails: "🖥️ Project-Based Virtual Intern: Front End Developer Core Initiative Studio x Rakamin Academy",
       techTitle: "Tools & Technologies",
-      detailsTitle: "Challenge",
+      detailsTitle: "Description",
       socialTitle: "Share This",
       projectImages: [
         {
           id: uuidv4(),
           title: "Uber Project Management UI",
-          img: "../images/ui-project-1.jpg",
+          img: "../images/1project_man_section.png",
         },
         {
           id: uuidv4(),
-          title: "Uber Project Management UI",
-          img: "../images/web-project-1.jpg",
+          title: "E-Commerce Catalog",
+          img: "../images/1project_women_section.png",
         },
         {
           id: uuidv4(),
-          title: "Uber Project Management UI",
-          img: "../images/web-project-2.jpg",
+          title: "E-Commerce Catalog",
+          img: "../images/2project_man_section.png",
+        },
+        {
+          id: uuidv4(),
+          title: "E-Commerce Catalog",
+          img: "../images/2project_women_section.png",
         },
       ],
       companyInfos: [
         {
           id: uuidv4(),
           title: "Name",
-          details: "Company Ltd",
+          details: "Core Initiative Studio",
         },
         {
           id: uuidv4(),
@@ -49,56 +53,40 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Website",
-          details: "https://company.com",
+          details: "https://github.com/fachry99/ecommerce-catalog",
         },
         {
           id: uuidv4(),
           title: "Phone",
-          details: "555 8888 888",
+          details: "-",
         },
       ],
       technologies: [
         "HTML",
         "CSS",
         "JavaScript",
-        "Nuxt.js",
-        "TailwindCSS",
-        "AdobeXD",
+        "Vue.js",
       ],
       projectDetails: [
         {
           id: uuidv4(),
           details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+            "I work as a Front-End Developer intern at Core Initiative and am responsible for developing two pages for an e-commerce website, namely the men's clothing and women's clothing pages. work with the UI/UX team and the Backend team to ensure that the website has complete design components and API code.",
         },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-        },
+        
       ],
       socialSharings: [
-        {
-          id: uuidv4(),
-          name: "Twitter",
-          icon: "twitter",
-          url: "https://twitter.com/realstoman",
-        },
+        // {
+        //   id: uuidv4(),
+        //   name: "Twitter",
+        //   icon: "twitter",
+        //   url: "https://twitter.com/realstoman",
+        // },
         {
           id: uuidv4(),
           name: "LinkedIn",
           icon: "linkedin",
-          url: "https://linkedin.com/in/realstoman",
+          url: "https://www.linkedin.com/in/fachry-/",
         },
         {
           id: uuidv4(),
@@ -116,45 +104,51 @@ export const state = () => ({
     },
     {
       id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdc",
-      title: "Phoenix Digital Agency",
-      category: "Mobile Application",
-      img: "images/mobile-project-2.jpg",
-      publishDate: "Nov 04, 2021",
+      title: "Scholarship Registration",
+      category: "Web Application",
+      img: "images/cover_bnsp_frame1.png",
+      publishDate: "dec 04, 2023",
       tag: "UI / Frontend",
       clientTitle: "About Client",
       objectivesTitle: "Objective",
       objectivesDetails:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
       techTitle: "Tools & Technologies",
-      detailsTitle: "Challenge",
+      detailsTitle: "description",
       socialTitle: "Share This",
       projectImages: [
         {
           id: uuidv4(),
-          title: "Phoenix Digital Agency",
-          img: "../images/mobile-project-1.jpg",
+          title: "Scholarship Registration",
+          img: "../images/cover_bnsp_frame1.png",
         },
         {
           id: uuidv4(),
-          title: "Phoenix Digital Agency",
-          img: "../images/web-project-2.jpg",
+          title: "Scholarship Registration",
+          img: "../images/bnsp_frame2.png",
         },
         {
           id: uuidv4(),
-          title: "Phoenix Digital Agency",
-          img: "../images/mobile-project-2.jpg",
+          title: "Scholarship Registration",
+          img: "../images/bnsp_frame3.png",
         },
+        {
+          id: uuidv4(),
+          title: "Scholarship Registration",
+          img: "../images/bnsp_frame4.png",
+        },
+
       ],
       companyInfos: [
         {
           id: uuidv4(),
           title: "Name",
-          details: "Company Ltd",
+          details: "BNSP (National Professional Certification Agency)",
         },
         {
           id: uuidv4(),
           title: "Services",
-          details: "UI Design & Frontend Development",
+          details: "fullstack developer",
         },
         {
           id: uuidv4(),
@@ -164,51 +158,34 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Phone",
-          details: "555 8888 888",
+          details: "-",
         },
       ],
       technologies: [
         "HTML",
         "CSS",
-        "JavaScript",
-        "Nuxt.js",
-        "TailwindCSS",
-        "AdobeXD",
+        "bootstrap",
+        "php",
+        "mysql",
       ],
       projectDetails: [
         {
           id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+          details:"Implementing User Interface. Implementing Text, Graphics, and Multimedia Programming Language Execution Commands. Arranging Functions, Files, or Other Programming Resources in a Neat Organization. Write Code with Principles According to Guidelines and Best Practices.",
         },
       ],
       socialSharings: [
-        {
-          id: uuidv4(),
-          name: "Twitter",
-          icon: "twitter",
-          url: "https://twitter.com/realstoman",
-        },
+        // {
+        //   id: uuidv4(),
+        //   name: "Twitter",
+        //   icon: "twitter",
+        //   url: "https://twitter.com/realstoman",
+        // },
         {
           id: uuidv4(),
           name: "LinkedIn",
           icon: "linkedin",
-          url: "https://linkedin.com/in/realstoman",
+          url: "https://www.linkedin.com/in/fachry-/",
         },
         {
           id: uuidv4(),
@@ -226,99 +203,98 @@ export const state = () => ({
     },
     {
       id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdy",
-      title: "Project Management UI",
+      title: "Mobile App Laundry Yuk",
       category: "UI/UX Design",
-      img: "images/ui-project-1.jpg",
-      publishDate: "Nov 04, 2021",
-      tag: "UI / Frontend",
+      img: "images/Portofolio Pyoyek Capstone(A).png",
+      publishDate: "Jun 04, 2023",
+      tag: "UI/UX ",
       clientTitle: "About Client",
       objectivesTitle: "Objective",
       objectivesDetails:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
+        "workers and students to save their time so that it can be used for other activities",
       techTitle: "Tools & Technologies",
-      detailsTitle: "Challenge",
+      detailsTitle: "Description",
       socialTitle: "Share This",
       projectImages: [
         {
           id: uuidv4(),
-          title: "Project Management UI",
-          img: "../images/mobile-project-1.jpg",
+          title: "Mobile App Laundry Yuk",
+          img: "../images/Frame thambnail.png",
         },
         {
           id: uuidv4(),
-          title: "Project Management UI",
-          img: "../images/web-project-2.jpg",
+          title: "Mobile App Laundry Yuk",
+          img: "../images/inti_ui_laundryyuk.png",
         },
         {
           id: uuidv4(),
-          title: "Project Management UI",
-          img: "../images/mobile-project-2.jpg",
+          title: "Mobile App Laundry Yuk",
+          img: "../images/Ui_order_laundryyuk.png",
+        },
+        {
+          id: uuidv4(),
+          title: "Mobile App Laundry Yuk",
+          img: "../images/Frame_all_ui_laundryyuk.png",
+        },
+        {
+          id: uuidv4(),
+          title: "Mobile App Laundry Yuk",
+          img: "../images/bmc_laundry_yuk.png",
         },
       ],
       companyInfos: [
         {
           id: uuidv4(),
           title: "Name",
-          details: "Company Ltd",
+          details: "Project capstone at Bisa.AI Indonesia",
         },
         {
           id: uuidv4(),
           title: "Services",
-          details: "UI Design & Frontend Development",
+          details: "Ui/UX Design",
         },
         {
           id: uuidv4(),
-          title: "Website",
-          details: "https://company.com",
+          title: "Figma Prototype",
+          // details: "https://www.figma.com/proto/GlksvMQntMQOaT8HeASqpy/Laundry-App?type=design&node-id=355-862&scaling=scale-down&page-id=0%3A1&starting-pointnode-id=355%3A862",
         },
         {
           id: uuidv4(),
           title: "Phone",
-          details: "555 8888 888",
+          details: "-",
         },
       ],
       technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Nuxt.js",
-        "TailwindCSS",
-        "AdobeXD",
+        "Figma",
+        "Whimsical",
       ],
       projectDetails: [
         {
           id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+          details: "Laundry Yuk is an application that provide services, where users can choose a shop/service provider based on recommendations, and can see the process of clothing to what extent, you can use clothing delivery service to customers",
+        },
+        {
+          id: uuidv4(),
+          details: "Feature in the planning: Recommendation Feature pick up, Delivery service, and Progress track feature",
         },
         {
           id: uuidv4(),
           details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+            "I'm create case studies including business model canvas, empty mapping, user persona, user perfective, Idea Prioritization Matrix, crazy eight, and prototype app in Figma",
         },
       ],
       socialSharings: [
-        {
-          id: uuidv4(),
-          name: "Twitter",
-          icon: "twitter",
-          url: "https://twitter.com/realstoman",
-        },
+        // {
+        //   id: uuidv4(),
+        //   name: "Twitter",
+        //   icon: "twitter",
+        //   url: "https://twitter.com/realstoman",
+        // },
         {
           id: uuidv4(),
           name: "LinkedIn",
           icon: "linkedin",
-          url: "https://linkedin.com/in/realstoman",
+          url: "https://www.linkedin.com/in/fachry-/",
         },
         {
           id: uuidv4(),
@@ -336,45 +312,50 @@ export const state = () => ({
     },
     {
       id: "260d1271-f1f2-4bc9-a5eb-05a89c8ccc99",
-      title: "Cloud Storage Platform",
-      category: "UI/UX Design",
-      img: "images/ui-project-2.jpg",
-      publishDate: "Nov 04, 2021",
-      tag: "Web / Frontend",
+      title: "UI Health App: Medigo",
+      category: "UI Design",
+      img: "images/cover_medigo_app.png",
+      publishDate: "May 17, 2023",
+      tag: "UI Design",
       clientTitle: "About Client",
       objectivesTitle: "Objective",
       objectivesDetails:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
       techTitle: "Tools & Technologies",
-      detailsTitle: "Challenge",
+      detailsTitle: "Description",
       socialTitle: "Share This",
       projectImages: [
         {
           id: uuidv4(),
-          title: "Cloud Storage Platform",
-          img: "../images/web-project-1.jpg",
+          title: "UI Design Medigo App",
+          img: "../images/Frame 1.png",
         },
         {
           id: uuidv4(),
-          title: "Cloud Storage Platform",
-          img: "../images/web-project-2.jpg",
+          title: "UI Design Medigo App",
+          img: "../images/Frame 2.png",
         },
         {
           id: uuidv4(),
-          title: "Cloud Storage Platform",
-          img: "../images/mobile-project-2.jpg",
+          title: "UI Design Medigo App",
+          img: "../images/Frame 3.png",
+        },
+        {
+          id: uuidv4(),
+          title: "UI Design Medigo App",
+          img: "../images/crazy eight medigo.jpg",
         },
       ],
       companyInfos: [
         {
           id: uuidv4(),
           title: "Name",
-          details: "Company Ltd",
+          details: "Project Capstone at Bisa.AI Indonesia",
         },
         {
           id: uuidv4(),
           title: "Services",
-          details: "UI Design & Frontend Development",
+          details: "UI Design",
         },
         {
           id: uuidv4(),
@@ -384,51 +365,37 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Phone",
-          details: "555 8888 888",
+          details:"-",
         },
       ],
       technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Nuxt.js",
-        "TailwindCSS",
-        "AdobeXD",
+        "Figma",
       ],
       projectDetails: [
         {
           id: uuidv4(),
           details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+            "Medigo is an online health application allows users to consult with a doctor, buying medicine, and making an appointment meet with a doctor offline. Users can easily access health services comprehensively via their mobile phone.",
         },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-        },
+        // {
+        //   id: uuidv4(),
+        //   details:
+        //     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+        // },
+        
       ],
       socialSharings: [
-        {
-          id: uuidv4(),
-          name: "Twitter",
-          icon: "twitter",
-          url: "https://twitter.com/realstoman",
-        },
+        // {
+        //   id: uuidv4(),
+        //   name: "Twitter",
+        //   icon: "twitter",
+        //   url: "https://twitter.com/realstoman",
+        // },
         {
           id: uuidv4(),
           name: "LinkedIn",
           icon: "linkedin",
-          url: "https://linkedin.com/in/realstoman",
+          url: "https://www.linkedin.com/in/fachry-/",
         },
         {
           id: uuidv4(),
@@ -446,45 +413,46 @@ export const state = () => ({
     },
     {
       id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdm",
-      title: "Uber Social App",
-      category: "Mobile Application",
-      img: "images/mobile-project-1.jpg",
-      publishDate: "Nov 04, 2021",
-      tag: "UI / Mobile",
+      title: "X Uniersity New Student Registration",
+      category: "Web Application",
+      img: "images/cover_x_university.png",
+      publishDate: "Aug 04, 2023",
+      tag: "Frontend Development",
       clientTitle: "About Client",
       objectivesTitle: "Objective",
       objectivesDetails:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
+        "New student who want to registration at X University.",
       techTitle: "Tools & Technologies",
-      detailsTitle: "Challenge",
+      detailsTitle: "Description",
       socialTitle: "Share This",
       projectImages: [
         {
           id: uuidv4(),
-          title: "Uber Social App",
-          img: "../images/web-project-1.jpg",
+          title: "X Uniersity New Student Registration",
+          img: "../images/1_x_university.png",
         },
         {
           id: uuidv4(),
-          title: "Uber Social App",
-          img: "../images/web-project-2.jpg",
+          title: "X Uniersity New Student Registration",
+          img: "../images/2_x_university.png",
         },
         {
           id: uuidv4(),
-          title: "Uber Social App",
-          img: "../images/mobile-project-2.jpg",
+          title: "X Uniersity New Student Registration",
+          img: "../images/3_x_university.png",
         },
+
       ],
       companyInfos: [
         {
           id: uuidv4(),
           title: "Name",
-          details: "Company Ltd",
+          details: "Web Programming Class Project",
         },
         {
           id: uuidv4(),
           title: "Services",
-          details: "UI Design & Frontend Development",
+          details: "Frontend Development",
         },
         {
           id: uuidv4(),
@@ -494,22 +462,20 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Phone",
-          details: "555 8888 888",
+          details: "-",
         },
       ],
       technologies: [
         "HTML",
         "CSS",
-        "JavaScript",
-        "Nuxt.js",
-        "TailwindCSS",
-        "AdobeXD",
+        "Php",
+        "MySQL",
       ],
       projectDetails: [
         {
           id: uuidv4(),
           details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+          "Website Display Implementing HTML, CSS, and JavaScript. Display and add data from the database, with PHP programming language, MySQL database."
         },
         {
           id: uuidv4(),
@@ -528,17 +494,17 @@ export const state = () => ({
         },
       ],
       socialSharings: [
-        {
-          id: uuidv4(),
-          name: "Twitter",
-          icon: "twitter",
-          url: "https://twitter.com/realstoman",
-        },
+        // {
+        //   id: uuidv4(),
+        //   name: "Twitter",
+        //   icon: "twitter",
+        //   url: "https://twitter.com/realstoman",
+        // },
         {
           id: uuidv4(),
           name: "LinkedIn",
           icon: "linkedin",
-          url: "https://linkedin.com/in/realstoman",
+          url: "https://www.linkedin.com/in/fachry-/",
         },
         {
           id: uuidv4(),
@@ -604,7 +570,7 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Phone",
-          details: "555 8888 888",
+          details: "-",
         },
       ],
       technologies: [
