@@ -4,6 +4,7 @@ export default {
   colorMode: {
     classSuffix: "",
   },
+  
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -39,8 +40,10 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ['nuxt-icons'],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
 };
+
+

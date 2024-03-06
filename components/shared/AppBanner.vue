@@ -62,8 +62,8 @@ export default {
       </p>
       <div class="flex justify-center sm:block">
         <a
-          href="/static/Fachry-Resume.pdf"
-          download=""
+          href="/static/fachry-resume.pdf"
+          download="fachry-resume.pdf"
           class="
             flex
             justify-center

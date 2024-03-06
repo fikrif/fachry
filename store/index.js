@@ -282,6 +282,11 @@ export const state = () => ({
           details:
             "I'm create case studies including business model canvas, empty mapping, user persona, user perfective, Idea Prioritization Matrix, crazy eight, and prototype app in Figma",
         },
+        {
+          id: uuidv4(),
+          details:
+            "Link for prototype: https://www.figma.com/proto/GlksvMQntMQOaT8HeASqpy/Laundry-App?type=design&node-id=355-862&scaling=scale-down&page-id=0%3A1&starting-pointnode-id=355%3A862",
+        },
       ],
       socialSharings: [
         // {
@@ -377,11 +382,11 @@ export const state = () => ({
           details:
             "Medigo is an online health application allows users to consult with a doctor, buying medicine, and making an appointment meet with a doctor offline. Users can easily access health services comprehensively via their mobile phone.",
         },
-        // {
-        //   id: uuidv4(),
-        //   details:
-        //     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        // },
+        {
+          id: uuidv4(),
+          details:
+            "Link for prototype: https://www.figma.com/proto/zXClpNwiiOcP2xSc6m2jq8/UI-Medigo-App?type=design&node-id=124-1466&t=B2a6yRCEgcknjEmF-1&scaling=scale-down&page-id=124%3A1461&starting-point-node-id=124%3A1499&mode=design",
+        },
         
       ],
       socialSharings: [
