@@ -5,6 +5,121 @@ export const state = () => ({
   projectsDescription: "Some of the projects I have successfully completed",
   projects: [
     {
+      id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccbb",
+      title: "Thesis - Face Detection App",
+      category: "Web Application",
+      img: "images/face_detection_cover.png",
+      publishDate: "apr 04, 2024",
+      tag: "Frontend Development",
+      clientTitle: "About Client",
+      objectivesTitle: "Objective",
+      objectivesDetails:
+        "Detect face students during class online",
+      techTitle: "Tools & Technologies",
+      detailsTitle: "Challenge",
+      socialTitle: "Share This",
+      projectImages: [
+        {
+          id: uuidv4(),
+          title: "Thesis - Face Detection App",
+          img: "../images/Face_detection_cover2.png",
+        },
+        {
+          id: uuidv4(),
+          title: "Thesis - Face Detection App",
+          img: "../images/Face_detection.png",
+        },
+        {
+          id: uuidv4(),
+          title: "Thesis - Face Detection App",
+          img: "../images/face_detection_only_face.png",
+        },
+        {
+          id: uuidv4(),
+          title: "Thesis - Face Detection App",
+          img: "../images/face_detection_result.png",
+        },
+        {
+          id: uuidv4(),
+          title: "Thesis - Face Detection App",
+          img: "../images/face_detection_result_chart.png",
+        },
+      ],
+      companyInfos: [
+        {
+          id: uuidv4(),
+          title: "Name",
+          details: "Thesis Project at National University",
+        },
+        {
+          id: uuidv4(),
+          title: "Services",
+          details: "Frontend Development + machine learning",
+        },
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "https://company.com",
+        },
+        {
+          id: uuidv4(),
+          title: "Phone",
+          details: "-",
+        },
+      ],
+      technologies: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Yolov8",
+        "Python",
+        "Roboflow",
+      ],
+      projectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "In this project face detection app. I build a web application that can detect faces in real-time using the YOLOv8 model. The app can detect faces in real-time using a webcam and show the result in another page. The app is built using HTML, CSS, and JavaScript, and the face detection model is built using the YOLOv8 model.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "This model was built with 3 classification, focus, kurang-fokus, and tidak-fokus. The model is trained using the Roboflow platform and trained again at google colab platfrom using Python.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "The benefit of this project is recognizing and understanding situations in real-time, allowing teachers to assess and deploy their teaching methods or materials according to student interests. And Practically, this research can teach educators how to use facial recognition to improve online learning.",
+        },
+      ],
+      socialSharings: [
+        // {
+        //   id: uuidv4(),
+        //   name: "Twitter",
+        //   icon: "twitter",
+        //   url: "https://twitter.com/realstoman",
+        // },
+        {
+          id: uuidv4(),
+          name: "LinkedIn",
+          icon: "linkedin",
+          url: "https://www.linkedin.com/in/fachry-/",
+        },
+        {
+          id: uuidv4(),
+          name: "Facebook",
+          icon: "facebook",
+          url: "https://facebook.com",
+        },
+        {
+          id: uuidv4(),
+          name: "Instagram",
+          icon: "instagram",
+          url: "https://instagram.com",
+        },
+      ],
+    },
+    {
       id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdb",
       title: "E-Commerce Catalog",
       category: "Web Application",
@@ -487,16 +602,6 @@ export const state = () => ({
           details:
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
         },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-        },
       ],
       socialSharings: [
         // {
@@ -510,116 +615,6 @@ export const state = () => ({
           name: "LinkedIn",
           icon: "linkedin",
           url: "https://www.linkedin.com/in/fachry-/",
-        },
-        {
-          id: uuidv4(),
-          name: "Facebook",
-          icon: "facebook",
-          url: "https://facebook.com",
-        },
-        {
-          id: uuidv4(),
-          name: "Instagram",
-          icon: "instagram",
-          url: "https://instagram.com",
-        },
-      ],
-    },
-    {
-      id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccbb",
-      title: "Apple Design System",
-      category: "Web Application",
-      img: "images/web-project-1.jpg",
-      publishDate: "Nov 04, 2021",
-      tag: "UI / Mobile",
-      clientTitle: "About Client",
-      objectivesTitle: "Objective",
-      objectivesDetails:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
-      techTitle: "Tools & Technologies",
-      detailsTitle: "Challenge",
-      socialTitle: "Share This",
-      projectImages: [
-        {
-          id: uuidv4(),
-          title: "Apple Design System",
-          img: "../images/web-project-1.jpg",
-        },
-        {
-          id: uuidv4(),
-          title: "Apple Design System",
-          img: "../images/web-project-2.jpg",
-        },
-        {
-          id: uuidv4(),
-          title: "Apple Design System",
-          img: "../images/mobile-project-2.jpg",
-        },
-      ],
-      companyInfos: [
-        {
-          id: uuidv4(),
-          title: "Name",
-          details: "Company Ltd",
-        },
-        {
-          id: uuidv4(),
-          title: "Services",
-          details: "UI Design & Frontend Development",
-        },
-        {
-          id: uuidv4(),
-          title: "Website",
-          details: "https://company.com",
-        },
-        {
-          id: uuidv4(),
-          title: "Phone",
-          details: "-",
-        },
-      ],
-      technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Nuxt.js",
-        "TailwindCSS",
-        "AdobeXD",
-      ],
-      projectDetails: [
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-        },
-      ],
-      socialSharings: [
-        {
-          id: uuidv4(),
-          name: "Twitter",
-          icon: "twitter",
-          url: "https://twitter.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "LinkedIn",
-          icon: "linkedin",
-          url: "https://linkedin.com/in/realstoman",
         },
         {
           id: uuidv4(),
